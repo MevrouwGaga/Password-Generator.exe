@@ -15,7 +15,7 @@ namespace PassGenerate {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -24,13 +24,13 @@ namespace PassGenerate {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ± ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -74,14 +74,14 @@ namespace PassGenerate {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -111,7 +111,7 @@ namespace PassGenerate {
 			this->generate->Name = L"generate";
 			this->generate->Size = System::Drawing::Size(95, 23);
 			this->generate->TabIndex = 0;
-			this->generate->Text = L"Сгенерировать";
+			this->generate->Text = L"Г‘ГЈГҐГ­ГҐГ°ГЁГ°Г®ГўГ ГІГј";
 			this->generate->UseVisualStyleBackColor = true;
 			this->generate->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -122,8 +122,8 @@ namespace PassGenerate {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(363, 26);
 			this->label1->TabIndex = 1;
-			this->label1->Text = L"Добро пожаловать в генератор пароля.\r\nВы можете выбрать параметры генерации нажав"
-				L" на чек-боксы ниже.";
+			this->label1->Text = L"Г„Г®ГЎГ°Г® ГЇГ®Г¦Г Г«Г®ГўГ ГІГј Гў ГЈГҐГ­ГҐГ°Г ГІГ®Г° ГЇГ Г°Г®Г«Гї.\r\nГ‚Г» Г¬Г®Г¦ГҐГІГҐ ГўГ»ГЎГ°Г ГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЈГҐГ­ГҐГ°Г Г¶ГЁГЁ Г­Г Г¦Г Гў"
+				L" Г­Г  Г·ГҐГЄ-ГЎГ®ГЄГ±Г» Г­ГЁГ¦ГҐ.";
 			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// label2
@@ -133,7 +133,7 @@ namespace PassGenerate {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(141, 13);
 			this->label2->TabIndex = 2;
-			this->label2->Text = L"Выберите тип параметров";
+			this->label2->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ ГІГЁГЇ ГЇГ Г°Г Г¬ГҐГІГ°Г®Гў";
 			// 
 			// custom
 			// 
@@ -143,7 +143,7 @@ namespace PassGenerate {
 			this->custom->Size = System::Drawing::Size(108, 17);
 			this->custom->TabIndex = 3;
 			this->custom->TabStop = true;
-			this->custom->Text = L"Настраиваемые";
+			this->custom->Text = L"ГЌГ Г±ГІГ°Г ГЁГўГ ГҐГ¬Г»ГҐ";
 			this->custom->UseVisualStyleBackColor = true;
 			this->custom->CheckedChanged += gcnew System::EventHandler(this, &MyForm::radioButton1_CheckedChanged);
 			// 
@@ -155,7 +155,7 @@ namespace PassGenerate {
 			this->readymade->Size = System::Drawing::Size(68, 17);
 			this->readymade->TabIndex = 4;
 			this->readymade->TabStop = true;
-			this->readymade->Text = L"Готовые";
+			this->readymade->Text = L"ГѓГ®ГІГ®ГўГ»ГҐ";
 			this->readymade->UseVisualStyleBackColor = true;
 			this->readymade->CheckedChanged += gcnew System::EventHandler(this, &MyForm::radioButton2_CheckedChanged);
 			// 
@@ -166,7 +166,7 @@ namespace PassGenerate {
 			this->big->Name = L"big";
 			this->big->Size = System::Drawing::Size(146, 17);
 			this->big->TabIndex = 5;
-			this->big->Text = L"Заглавные буквы (ABC)";
+			this->big->Text = L"Г‡Г ГЈГ«Г ГўГ­Г»ГҐ ГЎГіГЄГўГ» (ABC)";
 			this->big->UseVisualStyleBackColor = true;
 			this->big->CheckedChanged += gcnew System::EventHandler(this, &MyForm::big_CheckedChanged);
 			// 
@@ -177,7 +177,7 @@ namespace PassGenerate {
 			this->small->Name = L"small";
 			this->small->Size = System::Drawing::Size(136, 17);
 			this->small->TabIndex = 6;
-			this->small->Text = L"Строчные буквы (abc)";
+			this->small->Text = L"Г‘ГІГ°Г®Г·Г­Г»ГҐ ГЎГіГЄГўГ» (abc)";
 			this->small->UseVisualStyleBackColor = true;
 			this->small->CheckedChanged += gcnew System::EventHandler(this, &MyForm::small_CheckedChanged);
 			// 
@@ -188,7 +188,7 @@ namespace PassGenerate {
 			this->numbers->Name = L"numbers";
 			this->numbers->Size = System::Drawing::Size(86, 17);
 			this->numbers->TabIndex = 7;
-			this->numbers->Text = L"Цифры (0-9)";
+			this->numbers->Text = L"Г–ГЁГґГ°Г» (0-9)";
 			this->numbers->UseVisualStyleBackColor = true;
 			this->numbers->CheckedChanged += gcnew System::EventHandler(this, &MyForm::checkBox2_CheckedChanged);
 			// 
@@ -199,7 +199,7 @@ namespace PassGenerate {
 			this->specical->Name = L"specical";
 			this->specical->Size = System::Drawing::Size(144, 17);
 			this->specical->TabIndex = 8;
-			this->specical->Text = L"Специальные символы";
+			this->specical->Text = L"Г‘ГЇГҐГ¶ГЁГ Г«ГјГ­Г»ГҐ Г±ГЁГ¬ГўГ®Г«Г»";
 			this->specical->UseVisualStyleBackColor = true;
 			this->specical->CheckedChanged += gcnew System::EventHandler(this, &MyForm::specical_CheckedChanged);
 			// 
@@ -214,7 +214,7 @@ namespace PassGenerate {
 			this->format->RightToLeft = System::Windows::Forms::RightToLeft::No;
 			this->format->Size = System::Drawing::Size(121, 21);
 			this->format->TabIndex = 9;
-			this->format->Text = L"Выберите формат";
+			this->format->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ ГґГ®Г°Г¬Г ГІ";
 			this->format->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
 			// 
 			// result
@@ -232,7 +232,7 @@ namespace PassGenerate {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(59, 13);
 			this->label3->TabIndex = 11;
-			this->label3->Text = L"Результат";
+			this->label3->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			// 
 			// passlenght
 			// 
@@ -252,7 +252,7 @@ namespace PassGenerate {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(79, 13);
 			this->label5->TabIndex = 14;
-			this->label5->Text = L"Длина пароля";
+			this->label5->Text = L"Г„Г«ГЁГ­Г  ГЇГ Г°Г®Г«Гї";
 			this->label5->Click += gcnew System::EventHandler(this, &MyForm::label5_Click);
 			// 
 			// symbols
@@ -288,7 +288,7 @@ namespace PassGenerate {
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->MaximizeBox = false;
 			this->Name = L"MyForm";
-			this->Text = L"Генератор пароля";
+			this->Text = L"ГѓГҐГ­ГҐГ°Г ГІГ®Г° ГЇГ Г°Г®Г«Гї";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->passlenght))->EndInit();
 			this->ResumeLayout(false);
