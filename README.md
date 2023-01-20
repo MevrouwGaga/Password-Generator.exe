@@ -1,1 +1,4 @@
-# Password Generate
+# №1 | Password Generate
+Сгенерируйте свой пароль в EXE файле.
+----
+Мой первый C++ проект.
