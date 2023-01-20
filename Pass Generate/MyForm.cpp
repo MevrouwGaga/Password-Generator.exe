@@ -9,4 +9,4 @@ void main()
 	Application::SetCompatibleTextRenderingDefault(false);
 	PassGenerate::MyForm form;
 	Application::Run(% form);
-}
+} 
