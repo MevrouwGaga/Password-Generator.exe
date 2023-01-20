@@ -1,1 +1,1 @@
-# Pass Generate
+# Password Generate
